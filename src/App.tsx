@@ -6,14 +6,16 @@ import SideNav from './Components/SideNav';
 import Home from './Components/Home';
 import Settings from './Components/Settings';
 import About from './Components/About';
+import AppBarWithDrawer from './Components/AppBarWithDrawer';
 
 function App() {
   return (
     <BrowserRouter >
       <Routes>
+
         <Route path='/' element = {<Home />}>Home</Route>
         <Route path='/about' element = {<About />}>About</Route>
-        <Route path='/settings' element = {<Settings />}>Settings</Route>
+      <Route path='/settings' element = {<Settings />}>Settings</Route> 
       </Routes>
     </BrowserRouter>
   );
