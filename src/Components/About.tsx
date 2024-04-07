@@ -6,7 +6,6 @@ import Navbar from './Navbar';
 export default function About() {
     return (
         <>
-            <Navbar />
             <Box height={30}/>
                 <Box sx={{ display: 'flex' }}>
                     <SideNav />

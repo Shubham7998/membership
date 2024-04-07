@@ -1,4 +1,6 @@
 export interface LaptopModel {
+    align: "right" | "left" | "center" | "inherit" | "justify" | undefined
+
     id : number,
     laptopName : string,
     laptopCompanyId : number,
@@ -9,5 +11,10 @@ export interface LaptopModel {
     laptopRAMSizeGB : number,
     laptopColorId : number,
     laptopOperatingSystemId : number
-}
+    laptopCompanyName? : string,
+    laptopProcessorSeriesName? : string,
+    laptopColorName? : string,
+    laptopOperatingSystemName? : string
+    laptopOperatingSeriesName? : string
 
+}
