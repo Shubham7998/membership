@@ -138,8 +138,7 @@ export default function Navbar() {
   // ID for the primary search account menu mobile
   const mobileMenuId = 'primary-search-account-menu-mobile';
 
-  // Rendering the mobile menu
-  // Define the renderMobileMenu component
+  
 const renderMobileMenu = (
   // Menu component for mobile devices
   <Menu
@@ -239,7 +238,6 @@ return (
             inputProps={{ 'aria-label': 'search' }}
           />
         </Search>
-        {/* Box for flexible space */}
         <Box sx={{ flexGrow: 1 }} />
         {/* Box for larger screen icons */}
         <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
