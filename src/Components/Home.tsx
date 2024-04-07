@@ -13,7 +13,6 @@ export default function Home() {
     return (
         <>
             <div className='bgColor'>
-                <Navbar />
                 <Box height={70} />
                 <Box sx={{ display: 'flex' }}>
                     <SideNav />
@@ -95,7 +94,7 @@ export default function Home() {
                                         <div className='paddingall'>
                                             <span className='pricetitle'>Popular Products</span>
                                         </div>
-                                        <AccordionDash />
+                                        {/* <AccordionDash /> */}
                                     </CardContent>
                                 </Card>
                             </Grid>

@@ -141,7 +141,8 @@ export default function Navbar() {
   
 const renderMobileMenu = (
   // Menu component for mobile devices
-  <Menu
+  <div>
+    <Menu
     // Anchor element for the menu
     anchorEl={mobileMoreAnchorEl}
     // Anchor origin for the menu
@@ -197,6 +198,8 @@ const renderMobileMenu = (
       <p>Profile</p>
     </MenuItem>
   </Menu>
+
+  </div>
 );
 
 // Main Navbar functional component
